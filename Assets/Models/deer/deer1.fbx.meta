@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 43d2f4bdfea1bd744b24b16b8f7c1b3a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Backbone
+    100004: Backbone.001
+    100006: Backbone.002
+    100008: Backleg_L
+    100010: Backleg_L.001
+    100012: Backleg_L.002
+    100014: Backleg_L.002_end
+    100016: Backleg_R
+    100018: Backleg_R.001
+    100020: Backleg_R.002
+    100022: Backleg_R.002_end
+    100024: Body
+    100026: //RootNode
+    100028: Eyes
+    100030: Frontleg_L
+    100032: Frontleg_L.001
+    100034: Frontleg_L.002
+    100036: Frontleg_L.002_end
+    100038: Frontleg_R
+    100040: Frontleg_R.001
+    100042: Frontleg_R.002
+    100044: Frontleg_R.002_end
+    100046: Head
+    100048: Head 1
+    100050: Head_L.001
+    100052: Head_L.001_end
+    100054: Head_R.001
+    100056: Head_R.001_end
+    100058: Hip
+    100060: Horns
+    100062: IK-Backbone
+    100064: IK-Backbone_end
+    100066: IK-Backleg_L
+    100068: IK-Backleg_L_end
+    100070: IK-Backleg_R
+    100072: IK-Backleg_R_end
+    100074: IK-BacklegTarget_L
+    100076: IK-BacklegTarget_L_end
+    100078: IK-BacklegTarget_R
+    100080: IK-BacklegTarget_R_end
+    100082: IK-Fronleg_L
+    100084: IK-Fronleg_L_end
+    100086: IK-Frontleg_R
+    100088: IK-Frontleg_R_end
+    100090: IK-FrontlegTarget_L
+    100092: IK-FrontlegTarget_L_end
+    100094: IK-FrontlegTarget_R
+    100096: IK-FrontlegTarget_R_end
+    100098: IK-Head
+    100100: IK-Head_end
+    100102: IK-Hip
+    100104: IK-Hip_end
+    100106: Main
+    400000: Armature
+    400002: Backbone
+    400004: Backbone.001
+    400006: Backbone.002
+    400008: Backleg_L
+    400010: Backleg_L.001
+    400012: Backleg_L.002
+    400014: Backleg_L.002_end
+    400016: Backleg_R
+    400018: Backleg_R.001
+    400020: Backleg_R.002
+    400022: Backleg_R.002_end
+    400024: Body
+    400026: //RootNode
+    400028: Eyes
+    400030: Frontleg_L
+    400032: Frontleg_L.001
+    400034: Frontleg_L.002
+    400036: Frontleg_L.002_end
+    400038: Frontleg_R
+    400040: Frontleg_R.001
+    400042: Frontleg_R.002
+    400044: Frontleg_R.002_end
+    400046: Head
+    400048: Head 1
+    400050: Head_L.001
+    400052: Head_L.001_end
+    400054: Head_R.001
+    400056: Head_R.001_end
+    400058: Hip
+    400060: Horns
+    400062: IK-Backbone
+    400064: IK-Backbone_end
+    400066: IK-Backleg_L
+    400068: IK-Backleg_L_end
+    400070: IK-Backleg_R
+    400072: IK-Backleg_R_end
+    400074: IK-BacklegTarget_L
+    400076: IK-BacklegTarget_L_end
+    400078: IK-BacklegTarget_R
+    400080: IK-BacklegTarget_R_end
+    400082: IK-Fronleg_L
+    400084: IK-Fronleg_L_end
+    400086: IK-Frontleg_R
+    400088: IK-Frontleg_R_end
+    400090: IK-FrontlegTarget_L
+    400092: IK-FrontlegTarget_L_end
+    400094: IK-FrontlegTarget_R
+    400096: IK-FrontlegTarget_R_end
+    400098: IK-Head
+    400100: IK-Head_end
+    400102: IK-Hip
+    400104: IK-Hip_end
+    400106: Main
+    2100000: Antlers
+    2100002: Head
+    2100004: Eye
+    2100006: Body
+    4300000: Horns
+    4300002: Head
+    4300004: Eyes
+    4300006: Body
+    7400000: Armature|Die.000
+    7400002: Armature|Die.001
+    7400004: Armature|Eat.001
+    7400006: Armature|Idle
+    7400008: Armature|Idle.000
+    7400010: Armature|Idle.001
+    7400012: Armature|LookAround.000
+    7400014: Armature|LookAround.001
+    7400016: Armature|Run
+    7400018: Armature|Stand
+    9500000: //RootNode
+    13700000: Body
+    13700002: Eyes
+    13700004: Head
+    13700006: Horns
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Antlers
+    second: {fileID: 2100000, guid: 943cbe15138e4144c91d3d2137aa3e35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 44ee9a34ce19e21488a905dcb1d25735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: 91713467850d4a34181b73905037c300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: 15bf14257f5c59647b74ff4003ce9a7d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
