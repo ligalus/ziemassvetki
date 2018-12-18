@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
@@ -7,6 +8,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	[RequireComponent(typeof(Animator))]
 	public class ThirdPersonCharacter : MonoBehaviour
 	{
+        //--------------------
+        public Text countText;
+        public Text winText;
+
+
 		[SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
 		[SerializeField] float m_JumpPower = 12f;
@@ -29,6 +35,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+        //davanu skaitisana ----------------
+        private int count;
+
 
 		void Start()
 		{
@@ -40,7 +49,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
-		}
+
+            //davanu skaitisana ---------------
+            count = 0;
+            SetCountText();
+            winText.text = "";
+
+
+        }
 
 
 		public void Move(Vector3 move, bool crouch, bool jump)
@@ -228,8 +244,25 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             if (other.gameObject.CompareTag("present"))
             {
                 other.gameObject.SetActive(false);
+
+                //davanu skaitisana -----------------
+                count = count + 1;
+                SetCountText();
+
+
             }
         }
+
+        //funkcija, kas skaita davanas-----------------
+        void SetCountText()
+        {
+            countText.text = "Count: " + count.ToString();
+            if (count >= 12)
+            {
+                winText.text = "You Win!";
+            }
+        }
+
 
     }
 }
