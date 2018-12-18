@@ -255,9 +255,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         void SetCountText()
         {
             countText.text = "Count: " + count.ToString();
-            if (count >= 10)
+            if (count >= 1)
             {
-                winText.text = "You Win!";
+                winText.text = "You got all the gifts!";
             }
         }
 
