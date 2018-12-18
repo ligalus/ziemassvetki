@@ -8,7 +8,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	[RequireComponent(typeof(Animator))]
 	public class ThirdPersonCharacter : MonoBehaviour
 	{
-        //--------------------
+        //Tekstam
         public Text countText;
         public Text winText;
 
@@ -35,11 +35,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
-        //davanu skaitisana ----------------
-        private int count;
+        private int count; //davanu skaitisana
 
-
-		void Start()
+        void Start()
 		{
 			m_Animator = GetComponent<Animator>();
 			m_Rigidbody = GetComponent<Rigidbody>();
@@ -50,7 +48,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 
-            //davanu skaitisana ---------------
+            //davanu skaitisana, testa paradisana 
             count = 0;
             SetCountText();
             winText.text = "";
@@ -245,7 +243,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 other.gameObject.SetActive(false);
 
-                //davanu skaitisana -----------------
+                //davanu skaitisana
                 count = count + 1;
                 SetCountText();
 
@@ -253,11 +251,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
         }
 
-        //funkcija, kas skaita davanas-----------------
+        //funkcija, kas skaita davanas, parada tekstu
         void SetCountText()
         {
             countText.text = "Count: " + count.ToString();
-            if (count >= 12)
+            if (count >= 10)
             {
                 winText.text = "You Win!";
             }
