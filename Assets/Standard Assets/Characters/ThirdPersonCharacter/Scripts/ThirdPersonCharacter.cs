@@ -254,7 +254,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         //funkcija, kas skaita davanas, parada tekstu
         void SetCountText()
         {
-            countText.text = "Count: " + count.ToString();
+            countText.text = "Gifts: " + count.ToString();
             if (count >= 10)
             {
                 winText.text = "You got all the gifts!";
